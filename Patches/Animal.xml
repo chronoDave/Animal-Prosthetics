@@ -1,0 +1,10 @@
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="YorkshireTerrier"]</xpath>
+    <value>
+      <recipes>
+        <li>InstallPegLegAnimal</li>
+      </recipes>
+    </value>
+  </Operation>
+</Patch>

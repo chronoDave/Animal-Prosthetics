@@ -1,0 +1,10 @@
+<ModMetaData>
+  <name>Animal Prosthetics</name>
+  <description>Adds most prosthetics to some animals</description>
+  <author>Chronocide</author>
+  <url>https://github.com/chronoDave/Animal-Prosthetics</url>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <packageId>chrono.animalprosthetics</packageId>
+</ModMetaData>

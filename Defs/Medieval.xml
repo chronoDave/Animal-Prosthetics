@@ -1,0 +1,16 @@
+<Defs>
+  <RecipeDef ParentName="SurgeryInstallWoodenPartAnimalBase">
+    <defName>InstallPegLegAnimal</defName>
+    <label>install peg leg</label>
+    <description>Installs a peg leg.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WoodLog</ThingDef>
+    </descriptionHyperlinks>
+    <jobString>Installing peg leg.</jobString>
+    <appliedOnFixedBodyParts>
+      <li>Leg</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>PegLeg</addsHediff>
+    <uiIconThing>WoodLog</uiIconThing>
+  </RecipeDef>
+</Defs>
