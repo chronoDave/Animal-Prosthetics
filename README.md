@@ -2,6 +2,8 @@
 
 Adds prosthetics to all animals.
 
+Subscribe on the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3598458723).
+
 Source available on [GitHub](https://github.com/chronoDave/Animal-Prosthetics).
 
 **Supported prosthetics:**
