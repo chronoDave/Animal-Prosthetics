@@ -1,0 +1,36 @@
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[@Name="AnimalThingBase"]/recipes</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[@Name="AnimalThingBase"]</xpath>
+      <value>
+        <recipes />
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[@Name="AnimalThingBase"]/recipes</xpath>
+    <value>
+      <li>InstallArchotechEye</li>
+      <li>InstallArchotechArm</li>
+      <li>InstallArchotechLeg</li>
+      <li>InstallBionicEye</li>
+      <li>InstallBionicArm</li>
+      <li>InstallBionicLeg</li>
+      <li>InstallBionicEar</li>
+      <li>InstallBionicTongue</li>
+      <li>InstallBionicJaw</li>
+      <li>InstallBionicSpine</li>
+      <li>InstallBionicHeart</li>
+      <li>InstallBionicStomach</li>
+      <li>InstallPegLeg</li>
+      <li>InstallWoodenHand</li>
+      <li>InstallWoodenFoot</li>
+      <li>InstallSimpleProstheticLeg</li>
+      <li>InstallSimpleProstheticArm</li>
+      <li>InstallSimpleProstheticHeart</li>
+      <li>InstallCochlearImplant</li>
+    </value>
+  </Operation>
+</Patch>
