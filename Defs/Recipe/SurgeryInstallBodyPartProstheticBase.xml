@@ -1,0 +1,62 @@
+<Defs>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>InstallSimpleProstheticBeak</defName>
+    <label>install prosthetic beak</label>
+    <description>Install a prosthetic beak.</description>
+    <descriptionHyperlinks>
+      <ThingDef>SimpleProstheticBeak</ThingDef>
+      <HediffDef>SimpleProstheticBeak</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing prosthetic beak.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SimpleProstheticBeak</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SimpleProstheticBeak</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Beak</li>
+      <li>TurtleBeak</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>SimpleProstheticBeak</addsHediff>
+  </RecipeDef>
+
+    <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>InstallSimpleProstheticHoof</defName>
+    <label>install prosthetic hoof</label>
+    <description>Install a prosthetic hoof.</description>
+    <descriptionHyperlinks>
+      <ThingDef>SimpleProstheticHoof</ThingDef>
+      <HediffDef>SimpleProstheticHoof</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing prosthetic hoof.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SimpleProstheticHoof</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SimpleProstheticHoof</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Hoof</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>SimpleProstheticHoof</addsHediff>
+  </RecipeDef>
+</Defs>

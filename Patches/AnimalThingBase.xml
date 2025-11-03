@@ -31,6 +31,13 @@
       <li>InstallSimpleProstheticArm</li>
       <li>InstallSimpleProstheticHeart</li>
       <li>InstallCochlearImplant</li>
+      <!-- Custom Prosthetics -->
+      <li>InstallWoodenPaw</li>
+      <li>InstallSimpleProstheticBeak</li>
+      <li>InstallBionicBeak</li>
+      <li>InstallAnimalDenture</li>
+      <li>InstallSimpleProstheticHoof</li>
+      <li>InstallBionicTrunk</li>
     </value>
   </Operation>
 </Patch>

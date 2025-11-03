@@ -1,0 +1,69 @@
+<Defs>
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>InstallAnimalDenture</defName>
+    <label>install animal denture</label>
+    <description>Install an animal denture.</description>
+    <jobString>Installing animal denture.</jobString>
+    <workAmount>1500</workAmount>
+    <skillRequirements>
+      <Medicine>3</Medicine>
+    </skillRequirements>
+    <appliedOnFixedBodyParts>
+      <li>AnimalJaw</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Denture</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>InstallBionicBeak</defName>
+    <label>Install bionic beak</label>
+    <description>Install a bionic beak.</description>
+    <jobString>Installing bionic beak.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BionicBeak</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>BionicBeak</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Beak</li>
+      <li>TurtleBeak</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>BionicBeak</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>InstallBionicTrunk</defName>
+    <label>Install bionic trunk</label>
+    <description>Install a bionic trunk.</description>
+    <jobString>Installing bionic trunk.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BionicTrunk</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>BionicTrunk</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Trunk</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>BionicTrunk</addsHediff>
+  </RecipeDef>
+</Defs>

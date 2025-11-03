@@ -1,0 +1,75 @@
+<Defs>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>WoodenPaw</defName>
+    <label>wooden paw</label>
+    <labelNoun>a wooden paw</labelNoun>
+    <description>An installed wooden paw. Restores some stability to the user, but without finer motor skills.</description>
+    <priceImpact>false</priceImpact>
+    <spawnThingOnRemoved>WoodLog</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.80</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>SimpleProstheticBeak</defName>
+    <label>prosthetic beak</label>
+    <labelNoun>a prosthetic beak</labelNoun>
+    <description>An installed prosthetic beak. Its sturdy yet lightweight construction allows it to mimic a natural beak quite convincingly. Still, it's inferior to a real beak.</description>
+    <descriptionHyperlinks>
+      <ThingDef>SimpleProstheticBeak</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>SimpleProstheticBeak</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.85</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>BionicBeak</defName>
+    <label>bionic beak</label>
+    <labelNoun>a bionic beak</labelNoun>
+    <description>An installed bionic beak. Made out of biosynthetic bone, with plasteel tooth replacements and a set of micro servomotors for the full range of motion.</description>
+    <descriptionHyperlinks>
+      <ThingDef>BionicBeak</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>BionicBeak</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>SimpleProstheticHoof</defName>
+    <label>prosthetic hoof</label>
+    <labelNoun>a prosthetic hoof</labelNoun>
+    <description>An installed prosthetic hoof. It replicates a natural hoof.</description>
+    <descriptionHyperlinks>
+      <ThingDef>SimpleProstheticHoof</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>SimpleProstheticHoof</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>BionicTrunk</defName>
+    <label>bionic trunk</label>
+    <labelNoun>a bionic trunk</labelNoun>
+    <description>An installed bionic trunk. Made of synthetic smooth-fibers and connected through a neurogel interface, it can match the performance of a natural trunk in manipulation.</description>
+    <descriptionHyperlinks>
+      <ThingDef>BionicTrunk</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>BionicTrunk</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+</Defs>

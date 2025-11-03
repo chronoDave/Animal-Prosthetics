@@ -1,0 +1,17 @@
+<Defs>
+  <RecipeDef ParentName="SurgeryInstallWoodenPartBase">
+    <defName>InstallWoodenPaw</defName>
+    <label>install wooden paw</label>
+    <description>Install a wooden paw.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WoodLog</ThingDef>
+    </descriptionHyperlinks>
+    <jobString>Installing wooden paw.</jobString>
+    <workAmount>1000</workAmount>
+    <appliedOnFixedBodyParts>
+      <li>Paw</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>WoodenPaw</addsHediff>
+    <uiIconThing>WoodLog</uiIconThing>
+  </RecipeDef>
+</Defs>

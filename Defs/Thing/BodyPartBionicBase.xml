@@ -1,0 +1,33 @@
+<Defs>
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>BionicBeak</defName>
+    <label>bionic beak</label>
+    <description>An artificial beak replacement. Made out of biosynthetic bone, with plasteel tooth replacements and a set of micro servomotors for the full range of motion.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>InstallBionicBeak</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>10</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer>
+    </costList>
+    <statBases>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>BionicTrunk</defName>
+    <label>bionic trunk</label>
+    <description>An artificial trunk replacement. Made of synthetic smooth-fibers and connected through a neurogel interface, it can match the performance of a natural trunk in manipulation.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>InstallBionicTrunk</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>15</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <statBases>
+      <Mass>5</Mass>
+    </statBases>
+  </ThingDef>
+</Defs>
